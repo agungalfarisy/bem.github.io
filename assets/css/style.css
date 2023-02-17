@@ -1366,6 +1366,137 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+#contact .center {
+  display: table;
+ margin: auto;
+}
+
+#contact #social {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#contact #social ul {
+  text-align: center;
+  padding-left: 0px;
+  margin: 0 auto;
+}
+
+#contact #social li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+/** Facebook **/
+
+#contact .facebook {
+  width: 50px;
+  height: 50px;
+}
+
+#contact .facebook .border {
+ 
+  outline: none;
+  color:#3b5998;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid rgba(255,255,255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+
+
+#contact .facebook .border:hover {
+  background: #3b5998;
+  border-color: #436aaf;
+  color: rgba(255,255,255, 0.9);
+  transform: scale(1.2);
+}
+
+#contact .fa.fa-facebook {
+  font-size: 25px;
+}
+
+/** Twitter **/
+
+#contact .twitter {
+  width: 50px;
+  height: 50px;
+}
+
+#contact .twitter .border {
+  outline: none;
+  color: #00aced;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid rgba(255,255,255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+#contact .twitter .border:hover {
+  background: #00aced;
+  border-color: #72c6e6;
+  color: rgba(255,255,255, 0.9);
+  transform: scale(1.2);
+}
+
+#contact .fa.fa-twitter {
+  font-size: 25px;
+}
+
+/** Instagram **/
+
+#contact .instagram {
+  width: 50px;
+  height: 50px;
+}
+
+#contact .instagram .border {
+  
+  outline: none;
+  color:linear-gradient(#515BD4, #8134AF, #DD2A7B, #F58529);
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid rgba(255,255,255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+#contact .instagram .border:hover {
+  background: linear-gradient(#515BD4, #8134AF, #DD2A7B, #F58529);
+  border-color: #7495af;
+  color: rgba(255,255,255, 0.9);
+  transform: scale(1.2);
+}
+
+#contact .fa.fa-instagram {
+  font-size: 25px;
+}
+
+
+#contact #social ul li {
+  transition: ease .3s;
+}
+
+#contact #social ul:hover > li {
+  opacity: 0.5;
+}
+
+#contact #social ul:hover > li:hover {
+  opacity: 1;
+}
+
+
 .contact .info-box {
   color: #444444;
   text-align: center;
