@@ -406,6 +406,25 @@ h6 {
 /*--------------------------------------------------------------
 # Sections Tabs
 --------------------------------------------------------------*/
+#tabs .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(65, 76, 100, 0.06);
+}
+
+#tabs img {
+  width: 200px;
+  height: 200px;
+}
+
+#tabs .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
 #tabs{
 	background: #fff;
     color: #414c64;
