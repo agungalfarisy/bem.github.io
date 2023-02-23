@@ -1420,6 +1420,40 @@ section {
   margin-left: 30px;
 }
 
+/** Youtube **/
+
+#contact .youtube {
+  width: 50px;
+  height: 50px;
+}
+
+
+#contact .youtube .border {
+ 
+  outline: none;
+  color:red;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid rgba(255,255,255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+
+
+#contact .youtube .border:hover {
+  background: red;
+  border-color: #436aaf;
+  color: white;
+  transform: scale(1.2);
+}
+
+#contact .fa.fa-youtube {
+  font-size: 25px;
+}
+
 /** Facebook **/
 
 #contact .facebook {
@@ -1445,7 +1479,7 @@ section {
 #contact .facebook .border:hover {
   background: #3b5998;
   border-color: #436aaf;
-  color: rgba(255,255,255, 0.9);
+  color: white;
   transform: scale(1.2);
 }
 
@@ -1453,16 +1487,47 @@ section {
   font-size: 25px;
 }
 
-/** Twitter **/
+/** Tiktok **/
 
-#contact .twitter {
+#contact .tiktok {
   width: 50px;
   height: 50px;
 }
 
-#contact .twitter .border {
+#contact .tiktok .border {
   outline: none;
-  color: #00aced;
+  color: black;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid linear-gradient(#515BD4, #8134AF, #DD2A7B, #F58529);
+  transition: all .2s ease-in-out;
+}
+
+#contact .tiktok .border:hover {
+  background: black;
+  border-color: linear-gradient(#515BD4, #8134AF, #DD2A7B, #F58529);
+  color: white;
+  transform: scale(1.2);
+}
+
+#contact .fa.fa-tiktok {
+  font-size: 25px;
+}
+
+/** mail **/
+
+#contact .mail {
+  width: 50px;
+  height: 50px;
+}
+
+#contact .mail .border {
+ 
+  outline: none;
+  color: #08851b;
   width: 50px;
   height: 50px;
   -webkit-border-radius: 100px;
@@ -1472,16 +1537,53 @@ section {
   transition: all .2s ease-in-out;
 }
 
-#contact .twitter .border:hover {
-  background: #00aced;
-  border-color: #72c6e6;
-  color: rgba(255,255,255, 0.9);
+
+
+#contact .mail .border:hover {
+  background: #08851b;
+  border-color: #436aaf;
+  color: white;
   transform: scale(1.2);
 }
 
-#contact .fa.fa-twitter {
+#contact .fa.fa-mail {
   font-size: 25px;
 }
+
+
+/** Link **/
+
+#contact .link {
+  width: 50px;
+  height: 50px;
+}
+
+#contact .link .border {
+ 
+  outline: none;
+  color: #00acee;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid rgba(255,255,255, 0.3);
+  transition: all .2s ease-in-out;
+}
+
+
+
+#contact .link .border:hover {
+  background: #00acee;
+  border-color: #436aaf;
+  color: white;
+  transform: scale(1.2);
+}
+
+#contact .fa.fa-link {
+  font-size: 25px;
+}
+
 
 /** Instagram **/
 
@@ -1506,7 +1608,7 @@ section {
 #contact .instagram .border:hover {
   background: linear-gradient(#515BD4, #8134AF, #DD2A7B, #F58529);
   border-color: #7495af;
-  color: rgba(255,255,255, 0.9);
+  color: white;
   transform: scale(1.2);
 }
 
