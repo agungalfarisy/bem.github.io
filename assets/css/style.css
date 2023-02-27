@@ -406,6 +406,10 @@ h6 {
 /*--------------------------------------------------------------
 # Sections Tabs
 --------------------------------------------------------------*/
+#tabs .member table {
+  border-spacing: 100px;
+}
+
 #tabs .member {
   margin-bottom: 20px;
   overflow: hidden;
