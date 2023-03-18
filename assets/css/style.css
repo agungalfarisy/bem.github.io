@@ -623,6 +623,37 @@ section {
   color: #fff;
 }
 
+
+/*--------------------------------------------------------------
+# Tentang
+--------------------------------------------------------------*/
+.tentang {
+  background: #f7f8fa;;
+}
+
+.tentang h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: black;
+}
+
+.tentang h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+  color: black;
+}
+
+.tentang i {
+  font-size: 48px;
+  margin-top: 15px;
+  color: black;
+}
+
+.tentang p {
+  font-size: 15px;
+  color: black;
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -1194,6 +1225,8 @@ section {
 .team .member:hover .social {
   opacity: 1;
 }
+
+
 
 /*--------------------------------------------------------------
 # Pricing
