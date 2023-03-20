@@ -406,6 +406,11 @@ h6 {
 /*--------------------------------------------------------------
 # Sections Tabs
 --------------------------------------------------------------*/
+.responsive{
+  width: 100%;
+  height: auto;
+}
+
 #tabs .member table {
   border-spacing: 100px;
 }
@@ -421,7 +426,7 @@ h6 {
 
 #tabs img {
   width: 200px;
-  height: 200px;
+  height: auto;
 }
 
 #tabs .member .member-img {
