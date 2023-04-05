@@ -79,6 +79,10 @@ h6 {
   background: transparent;
 }
 
+#berita #header.header-transparent {
+  background: rgba(55, 64, 85, 0.9);
+}
+
 #header.header-scrolled {
   background: rgba(55, 64, 85, 0.9);
   padding: 15px 0;
@@ -470,7 +474,18 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
+  
   padding: 60px 0;
+}
+
+#berita section {
+  margin-top: 70px;
+ 
+}
+
+#berita #footer {
+  margin-top: 70px;
+  padding: 40px 0;
 }
 
 .section-bg {
