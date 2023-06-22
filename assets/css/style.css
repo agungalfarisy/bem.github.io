@@ -72,7 +72,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
-  background: rgba(55, 64, 85, 0.9);
+  background: #A6290D;
 }
 
 #header.header-transparent {
@@ -80,11 +80,11 @@ h6 {
 }
 
 #berita #header.header-transparent {
-  background: rgba(55, 64, 85, 0.9);
+  background: #A6290D;
 }
 
 #header.header-scrolled {
-  background: rgba(55, 64, 85, 0.9);
+  background: #A6290D;
   padding: 15px 0;
 }
 
@@ -177,7 +177,7 @@ h6 {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #414c64;
+  color: #A6290D;
 }
 
 .navbar .dropdown ul a i {
@@ -276,7 +276,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #414c64;
+  color: #A6290D;
 }
 
 .navbar-mobile a:hover,
@@ -440,22 +440,22 @@ h6 {
 
 #tabs{
 	background: #fff;
-  color: #414c64;
+  color: #A6290D;
 }
 
 /* #tabs{
 	background: #f7f8fa;
-  color: #414c64;
+  color: #A6290D;
 } */
 
 #tabs h6.section-title{
-    color: #414c64;
+    color: #A6290D;
 }
 
 #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #414c64;
+    color: #A6290D;
     background-color: transparent;
-    border-color: transparent transparent #414c64;
+    border-color: transparent transparent #A6290D;
     border-bottom: 4px solid !important;
     font-size: 20px;
     font-weight: bold;
@@ -464,7 +464,7 @@ h6 {
     border: 1px solid transparent;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
-    color: #414c64;
+    color: #A6290D;
     font-size: 20px;
 }
 
@@ -616,7 +616,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about{
-  background: #414c64;
+  background: #A6290D;
 }
 
 .about h3 {
@@ -684,7 +684,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #414c64;
+  color: #A6290D;
 }
 
 .counts .counters p {
@@ -709,13 +709,13 @@ section {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #414c64;
-  color: #414c64;
+  border: 2px solid #A6290D;
+  color: #A6290D;
 }
 
 .services .services-btn:hover {
   color: white;
-  background: #414c64;
+  background: #A6290D;
 }
 
 .services .icon-box {
@@ -753,7 +753,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #414c64;
+  color: #A6290D;
   transition: ease-in-out 0.3s;
 }
 
@@ -844,7 +844,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .tujuan {
-  background: #414c64;
+  background: #A6290D;
   background-size: cover;
   padding: 60px 0;
 }
@@ -887,13 +887,13 @@ section {
 }
 
 .tujuan h3 {
-  color: #414c64;
+  color: #A6290D;
   font-size: 28px;
   font-weight: 700;
 }
 
 .tujuan p {
-  color: #414c64;
+  color: #A6290D;
 }
 
 .tujuan .tujuan-btn {
@@ -907,7 +907,7 @@ section {
   transition: 0.5s;
   margin-top: 10px;
   border: 2px solid #ffc107;
-  color: #414c64;
+  color: #A6290D;
 }
 
 .tujuan .tujuan-btn:hover {
@@ -1027,7 +1027,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #414c64;
+  color: #A6290D;
   background: #ffc107;
 }
 
@@ -1197,7 +1197,7 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #414c64;
+  color: #A6290D;
   margin: 0 10px;
   display: inline-flex;
   align-items: center;
@@ -1225,7 +1225,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 15px;
-  color: #414c64;
+  color: #A6290D;
 }
 
 .team .member .member-info span {
@@ -1820,7 +1820,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #414c64;
+  color: #A6290D;
   font-size: 14px;
   background: #f4f5f8;
 }
